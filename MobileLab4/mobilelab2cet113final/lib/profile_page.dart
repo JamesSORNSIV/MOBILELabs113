@@ -8,7 +8,7 @@ class ProfilePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.teal.shade50,
       appBar: AppBar(
-        title: const Text('My Best Friend Profile'),
+        title: const Text('My Profile'),
         backgroundColor: Colors.teal,
       ),
       body: Padding(
@@ -22,16 +22,16 @@ class ProfilePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   _buildProfileInfo(
-                      label: "ชื่อ-นามสกุล", value: "ระพีพัฒน์ สีดำ"),
-                  _buildProfileInfo(label: "ชื่อเล่น", value: "จอจ้า"),
-                  _buildProfileInfo(label: "อายุ", value: "20 ปี"),
-                  _buildProfileInfo(label: "บ้านเกิด", value: "แดนสับปะรด"),
+                      label: "ชื่อ-นามสกุล", value: "ศรสิวะพงษ์ โพธิวงศ์"),
+                  _buildProfileInfo(label: "ชื่อเล่น", value: "จิมมี่"),
+                  _buildProfileInfo(label: "อายุ", value: "19 ปี"),
+                  _buildProfileInfo(label: "บ้านเกิด", value: "ปราณบุรี A.K.A - แดนสับปะรด"),
                   _buildProfileInfo(
-                      label: "อาหารที่ชอบ", value: "ข้าวมันไก่, ก๋วยเตี๋ยวเรือ"),
+                      label: "อาหารที่ชอบ", value: "ปลาแซลม่อน"),
                   _buildProfileInfo(
                       label: "กิจกรรมที่ชอบ",
                       value:
-                          "ฟังเพลง K-Pop"),
+                          "ฟังเพลง, เล่นเกม, เล่นดนตรี"),
                 ],
               ),
             ),
