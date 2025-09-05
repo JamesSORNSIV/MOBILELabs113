@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../enums/activity_category.dart';
+import '/enums/activity_category.dart';
 
 class Activity {
   final String id;
